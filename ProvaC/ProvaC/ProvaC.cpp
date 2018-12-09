@@ -10,7 +10,7 @@ int main()
 	int c = 0;
 	while (true) {
 		c++;
-		cout << c << " ";
+		cout << c+1 << " ";
 		if (c == 10)
 			break;
 	}
